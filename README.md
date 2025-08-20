@@ -39,6 +39,10 @@ npm install bootstrap
 ```bash
 npm install SweetAlert2
 ```
+**React Router Dom**
+```bash
+npm install react-router-dom
+```
 
 ---
 
@@ -61,28 +65,36 @@ npm install SweetAlert2
 ```plaintext
 /
 ├── public/
-│   ├── index.html            # Plantilla HTML principal de la app
-│   ├── favicon.ico           # Ícono de la 
-│   ├── logo192.png           # Icono de React
-│   ├── logo512.png           # Icono de React
-│   ├── manifest.json         # Describe los metodos de mi aplicacion
-│   ├── robots.txt            # Indica los robots de busqueda
+│   ├── index.html                   # Plantilla HTML principal de la app
+│   ├── favicon.ico                  # Ícono de la 
+│   ├── logo192.png                  # Icono de React
+│   ├── logo512.png                  # Icono de React
+│   ├── manifest.json                # Describe los metodos de mi aplicacion
+│   ├── robots.txt                   # Indica los robots de busqueda
 ├── src/
-│   ├── pages/LoginPage       # Páginas completas (vistas o interfaces completas)
-│   │   ├── LoginPage.css     # Estilos globales de la pagina de login
-│   │   └── LoginPage.jsx     # Login de la pagina
-│   ├── index.js              # Punto de entrada principal
-│   ├── App.js                # Componente raíz
-│   ├── App.css               # Estilos globales de la app
-│   ├── index.css             # Estilos globales del index
-│   ├── App.test.js           # Testeo para la app
-│   ├── logo.svg              # Contiene el logo de React en graficos vectoriales escalables
-│   ├── reportWebVitals.js    # Mide el rendimiento web de la pagina
-│   ├── setupTests.js         # Archivo de configuracion para pruebas del proyecto
-├── .gitignore                # Es para que ignore la carpeta "node_modules" al subir al repositorio de GIT
-├── package.json              # Configuración y dependencias del proyecto
-├── package-lock.json         # Bloqueo de versiones de dependencias
-└── README.md                 # Documentación del proyecto
+│   ├── pages                        # Páginas completas (vistas o interfaces completas)
+│   │       ├──LoginPage
+│   │          └── LoginPage.jsx     # Login de la pagina
+│   │       ├──RegisterPage
+│   │          └── RegisterPage.jsx  # Pagina de registro
+│   │       ├──ForgotPage
+│   │          └── ForgotPage.jsx    # Pagina de recuperacion de contraseña
+│   ├── playground/     
+│   │   ├── useState.jsx             # Practica del uso de useState
+│   │   ├── LoginPage.css            # Estilos globales de la pagina de login
+│   │   └── LoginPage.jsx            # Login de la pagina   
+│   ├── index.js                     # Punto de entrada principal
+│   ├── App.js                       # Componente raíz
+│   ├── App.css                      # Estilos globales de la app
+│   ├── index.css                    # Estilos globales del index
+│   ├── App.test.js                  # Testeo para la app
+│   ├── logo.svg                     # Contiene el logo de React en graficos vectoriales escalables
+│   ├── reportWebVitals.js           # Mide el rendimiento web de la pagina
+│   ├── setupTests.js                # Archivo de configuracion para pruebas del proyecto
+├── .gitignore                       # Es para que ignore la carpeta "node_modules" al subir al repositorio de GIT
+├── package.json                     # Configuración y dependencias del proyecto
+├── package-lock.json                # Bloqueo de versiones de dependencias
+└── README.md                        # Documentación del proyecto
 
 ```
 ---
